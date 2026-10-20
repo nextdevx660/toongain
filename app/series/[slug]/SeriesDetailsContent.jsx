@@ -92,7 +92,7 @@ export default function SeriesDetailsContent({ slug }) {
         <img 
           src={posterImage} 
           alt="Backdrop Blur" 
-          className="w-full h-full object-cover scale-125 blur-xs opacity-25 filter brightness-75"
+          className="w-full h-full object-cover scale-125 blur-[1px] opacity-25 filter brightness-75"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0b1622]/40 via-[#0b1622]/80 to-[#0b1622]" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0b1622] via-transparent to-[#0b1622]" />

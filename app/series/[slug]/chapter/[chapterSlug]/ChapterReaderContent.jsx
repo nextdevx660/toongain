@@ -30,10 +30,10 @@ export default function ChapterReaderContent({ seriesSlug, chapterSlug }) {
         );
         const data = resp.data.data || resp.data;
         setChapter(data);
-        console.log(data);
+        // console.log(data);
       } catch (err) {
         console.error("Error fetching chapter:", err);
-        setError("Chapter load nahi ho paya.");
+        setError("CHAPTER IS NOT AVAILABLE");
       } finally {
         setLoading(false);
       }
