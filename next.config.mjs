@@ -11,6 +11,9 @@ const nextConfig = {
       },
     },
   },
+  images: {
+    domains: ['cdn.anipixcdn.co', 'hentaidb.xyz', 'media.omegascans.org']
+  }
 };
 
 export default nextConfig;
