@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "TOONGAIN - Free site to read hentai manhwa "Completely free site to read hentai manhwa",
+  title: "TOONGAIN - Free site to read hentai manhwa",
+  description: "Completely free site to read hentai manhwa",
 };
 
 export default function RootLayout({ children }) {
