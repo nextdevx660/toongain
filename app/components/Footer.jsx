@@ -114,7 +114,7 @@ export default function Footer() {
 
           {/* Copyright & Tagline */}
           <div className="flex flex-wrap items-center gap-2 tracking-wider text-[11px] uppercase">
-            <span>© 2026 TOONVERSE. ALL RIGHTS RESERVED.</span>
+            <span>© 2026 TOONGAIN. ALL RIGHTS RESERVED.</span>
             <span className="hidden md:inline text-[#3F3F46]">|</span>
             <span className="flex items-center gap-1">
               MADE WITH{" "}
